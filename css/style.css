@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-name {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M259.3390933289096 314.03160740361915L134.5327850011087 255.83347004431164 76.33464764180118 380.6397783721126 201.1409559696021 438.83791573142z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M56.33665835503508 392.04981251572457L-14.559062036733579 389.57407940597227 17.17519849452225 497.15552654850137z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M805.0285702167932 159.2795354471188L987.7749407320111 162.64360241017448 912.7645893246781 21.569649343474964z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M314.96821900318275 358.0168740897481L269.5240464169773 416.18276252339984 379.4949653605576 455.26607718588207z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M591.5042663557266 596.5893796977725L664.3686109386387 521.1361420876855 588.9153733285516 448.2717975047734 516.0510287456395 523.7250351148605z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M460.73%2c214.594C490.175%2c213.31%2c520.004%2c203.972%2c534.942%2c178.565C550.057%2c152.856%2c545.005%2c121.48%2c530.935%2c95.185C515.87%2c67.031%2c492.641%2c41.003%2c460.73%2c39.874C427.233%2c38.688%2c398.443%2c61.056%2c381.355%2c89.891C363.883%2c119.374%2c355.99%2c156.654%2c374.392%2c185.565C391.866%2c213.018%2c428.219%2c216.012%2c460.73%2c214.594' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:default;
+}
+.card{
+    width: 85%;
+    height: 90vh;
+    max-width: 440px;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+
+}
+.card img{
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.card p{
+    font-size: 1.5rem;
+    margin: 0.8rem auto;
+    max-width: 330px;
+}
+.card .reseau img{
+    width: 1.9rem;
+    border-radius: 50%;
+    margin: 0.6rem 0.4rem;
+    transition: 0.5s;
+}
+.card .reseau img:hover{
+    background:violet;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    color: rgb(9, 13, 85);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #202746;
+    color: white;
+}
